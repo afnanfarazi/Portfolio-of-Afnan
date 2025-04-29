@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <div class="left">
+      <a href="/">Sariut Ullah Afnan</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:afnangriffin@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+</nav>
+
+<main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Sariut Ullah Afnan 👋</h2>
+        <p>I’m Sariut Ullah Afnan, passionate about becoming a skilled software engineer. I enjoy exploring different programming languages and technologies, and I aspire to build innovative solutions that make an impact. Continuous learning, dedication, and creativity drive my journey in the world of software development.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="Images/myphoto.jpg" alt="headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        Passionate software developer experienced with Java, Python, JavaScript, HTML, PHP, and C. I love to build efficient, creative, and scalable solutions while continuously learning and growing in the field of software engineering.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="Images/html-logo.png" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="Images/java.png" alt="java logo">
+          <span>Java</span>
+        </div>
+
+        <div class="cell">
+          <img src="Images/python.jpg" alt="python logo">
+          <span>Python</span>
+        </div>
+
+        <div class="cell">
+          <img src="Images/javascript-logo.png" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+
+        <div class="cell">
+          <img src="Images/php-logo.png" alt="php logo">
+          <span>PHP</span>
+        </div>
+
+        <div class="cell">
+          <img src="Images/c-logo.png" alt="c logo">
+          <span>C</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="Images/your-photo.jpg" alt="Sariut Ullah Afnan">
+          <p>Sariut Ullah Afnan</p>
+        </div>
+
+        <div class="text">
+          "I am committed to building a future as a successful software engineer. My passion for technology, dedication to learning, and ability to adapt make me a strong candidate for real-world software challenges. I believe in the power of innovation, hard work, and teamwork."
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Interested in collaborating or working together? Let's connect and create something meaningful!
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+</main>
+</body>
+</html>
